@@ -1,0 +1,28 @@
+extends layout
+
+block content
+
+	h1=title
+
+
+	h2 Images and alternative text
+
+	img(src="http://placehold.it/350x150" alt="william")
+
+	img(src="http://placehold.it/350x150" alt="")
+
+	img(src="http://lorempixel.com/400/200/")
+
+	img(src="http://lorempixel.com/400/200/sports")
+
+	img(src="http://lorempixel.com/400/200/sports" alt="file.png")
+
+	img(src="http://lorempixel.com/400/200/sports" alt="file.jpg")
+
+
+
+	a(href="page.html"): img(src="http://lorempixel.com/400/200/sports" alt="file.jpg")
+
+	a(href="page.html"): img(src="http://lorempixel.com/400/200/sports")
+
+	a(href="page.html"): img(src="http://lorempixel.com/200/200/sports")

@@ -41,7 +41,8 @@ CrawlAndTest();
 }); //then
 
 casper.run(function() {
-	utils.dump(tests.Results());
- utils.dump({finished:"Yes"});
- this.exit();
+	//utils.dump(tests.Results());
+ 	//utils.dump({finished:"Yes"});
+ 	console.log(JSON.stringify(tests.Results()));
+ 	this.exit();
 });

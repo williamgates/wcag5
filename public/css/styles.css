@@ -1,0 +1,44 @@
+body {
+	font: 100%/1.5 sans-serif;
+}
+h1 {
+	background: #F5CB33;
+	padding: 0.5em;
+}
+input[type="text"] {
+	display: block;
+	font-size: 100%;
+	padding: 0.5em;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	max-width: 50em;
+}
+.error {
+	border-left: 9px solid #B72C2B;
+	background: rgba(183, 44, 43, 0.1);
+	color: #000;
+	margin: 0.5em 0;
+	padding: 0.75em 1em 0.75em 2em;
+}
+.pass {
+	border-left: 9px solid green;
+	background: rgba(183, 44, 43, 0.1);
+	color: #000;
+	margin: 0.5em 0;
+	padding: 0.75em 1em 0.75em 2em;
+}
+img {
+	display: block;
+	margin: 1em 0;
+}
+td {
+	font-size: 0.875em;
+	vertical-align: top;
+	padding: 0.75em;
+}
+tr:nth-child(even) {
+	background: #efefef;
+}
