@@ -9,3 +9,16 @@ To view results in your browser:
 3. run npm install
 4. run node index.js 
 5. This should serve the page at http://localhost:3000
+
+Tests we've written:
+* Pages with no language defined
+* Images without an ALT attribute
+* Images whose ALT attribute only contains white space
+* I'mages whose ALT text is unusually long (check only)
+* Links with no text (including alt text)
+* Form elements with no ID
+* Form elements with no label
+* Elements with class of "heading" or "header" which might be headings (check only)
+* Headings that are unusually long (check only)
+* Visual lists with bullet images (check only)
+* Focusable elements whose outline is set to "none" (check only)
