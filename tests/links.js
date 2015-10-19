@@ -25,11 +25,11 @@ var require = patchRequire(require);
 				 
 				 if (txt == "")  {
 					 err.wcag = "2.4.4";
-err.level = "1";
+err.result = "1";
 err.message = "Llink has no text";
 } else { //if the link has alt text
 err.wcag = "1.1.1";
-err.level = "2";
+err.result = "2";
 err.message = "Check that alt text for linked image is appropriate: " + txt;
 					 } //if no alt text
 					 
