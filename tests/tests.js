@@ -3,6 +3,8 @@ var links = require('tests/links.js');
 var images  = require('tests/images.js');
 var lang  = require('tests/lang.js');
 var forms  = require('tests/forms.js');
+var ids = require('tests/ids.js');
+var misc = require('tests/misc.js');
 var results = {errors:[], pageTitles:[]};
 
 			function LogResults(resList) {
@@ -27,4 +29,6 @@ LogResults(links.Run());
 LogResults(images.Run());	
 LogResults(lang.Run());	
 LogResults(forms.Run());	
+LogResults(ids.Run());
+LogResults(misc.Run());
 }; //Run
