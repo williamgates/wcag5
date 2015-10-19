@@ -23,6 +23,12 @@ router.get('/', function(req, res) {
 	});
 });
 
+router.get('/test-list', function(req, res) {
+	res.render('test-list', {
+		title: 'List of casper tests'
+	});
+});
+
 router.post('/', function(req, res) {
 
 	out = {};

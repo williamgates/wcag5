@@ -1,0 +1,23 @@
+extends layout
+
+block content
+
+	h1=title
+
+	h2 Our tests:
+
+	ul
+		li Pages with no language defined
+		li Images without an ALT attribute
+		li Images whose ALT attribute only contains white space
+		li Images whose ALT text is unusually long (check only)
+		li Links with no text (including alt text)
+		li Form elements with no ID
+		li Form elements with no label
+		li Elements with class of "heading" or "header" which might be headings (check only)
+		li Headings that are unusually long (check only)
+		li Visual lists with bullet images (check only)
+		li Focusable elements whose outline is set to "none" (check only)
+
+	p 
+		a(href="/") Run test

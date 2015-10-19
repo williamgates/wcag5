@@ -9,6 +9,12 @@ input[type="text"] {
 	display: block;
 	font-size: 100%;
 	padding: 0.5em;
+	margin: 0 0 1em;
+	max-width: 25em;
+	width: 100%;
+}
+#number {
+	width: 3em;
 }
 ul {
 	margin: 0;
